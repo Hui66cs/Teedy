@@ -305,3 +305,17 @@
 16 Mar 2026 14:41:37,696 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
 16 Mar 2026 14:41:37,943 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
 16 Mar 2026 14:41:37,944 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+30 Mar 2026 14:23:55,959 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+30 Mar 2026 14:23:56,462 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+30 Mar 2026 14:23:56,465 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 31, new version is 31, executing database incremental update scripts 
+30 Mar 2026 14:23:56,465 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+30 Mar 2026 14:23:56,465 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+30 Mar 2026 14:23:56,823 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+30 Mar 2026 14:23:56,865 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
+30 Mar 2026 14:23:56,928 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+30 Mar 2026 14:23:56,936 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+30 Mar 2026 14:23:56,940 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+30 Mar 2026 14:23:57,177 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+30 Mar 2026 14:23:57,178 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+30 Mar 2026 14:25:18,768 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+30 Mar 2026 14:25:18,768 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
